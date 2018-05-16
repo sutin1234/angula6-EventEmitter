@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  updateData(e) {
+    console.log('------------------- update -------------------');
+    console.log(e);
+  }
 }
